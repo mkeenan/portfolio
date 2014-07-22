@@ -1,0 +1,138 @@
+// Place all the styles related to the landing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body, .container-fluid, .row, .col-md-12 {
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Belleza', sans-serif;
+}
+
+p {
+	font-size: 12px;
+}
+
+ body{
+	color: #333;
+	font-family: 'Oswald', Arial, sans-serif;
+	font-size: 20px;
+}
+
+.heading{
+	margin: 0 auto;
+	margin-top: 200px;
+	text-align: center;
+	font-size: 150px;
+	color: black;
+}
+
+.subhead {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 50px;
+}
+
+.mainbackground {
+	background-image: url("background2.png");
+	height: 450px;
+	background-size: cover;
+	background-repeat: no repeat;
+	position: relative;
+}
+
+#fadeMenu {
+	background: #44474B;
+	background-color: #640D7A;
+	display: none;
+	position: fixed;
+	right: 0;
+	top: 0;
+	width: 100%;
+	z-index: 99999;
+}
+
+.glyphicon {
+	font-size: 40px;
+	color: black;
+}
+
+.glyphicon:hover {
+	color: white;
+}
+
+#home{
+	height: 800px;
+	margin-top: 50px;
+	background-image: url("background2.png");
+	background-size: cover;
+	text-align: center;
+}
+
+#about {
+	background-size: cover;
+	height: 550px;
+	color: black;
+	text-align: right;
+	margin: 0 auto;
+	padding: 80px 100px 100px 100px;
+	img {
+		margin: 0 auto;
+		background-color: black;
+		height: 250px;
+		border-radius: 130px;
+	}
+}
+
+#projects {
+	background-color: #0AB1C6;
+	background-size: cover;
+	text-align: center;
+	height: 800px;
+}
+
+.portfolio {
+	margin-left: 5%;
+}
+
+/*Portfolio pics*/
+.pic {
+	img {
+		margin: 0 auto;
+		max-width: 215px;
+	}
+	background-color: black;
+	height: 250px;
+	width: 250px;
+	overflow: hidden;
+	margin: 20px;
+	border: 10px solid white;
+	-webkit-box-shadow: 5px 5px 5px #111;
+	box-shadow: 5px 5px 5px #111;
+	float: left;
+}
+
+.pic:hover {
+	cursor: pointer;
+}
+
+/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+
+

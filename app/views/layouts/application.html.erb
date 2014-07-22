@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mary Keenan</title>
+  <%= stylesheet_link_tag "application", media: "all" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+  <link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+  <script type="text/javascript">
+	$(window).scroll(function(){
+	 
+	if ($(this).scrollTop() > 100) {
+	$('#fadeMenu').fadeIn();
+	}
+	else {
+	$('#fadeMenu').fadeOut();
+	}
+	 
+	});
+   </script>
+</head>
+<body>
+
+	<%= render partial: 'layouts/nav'%>
+		
+	<%= yield %>
+
+
+</body>
+</html>
