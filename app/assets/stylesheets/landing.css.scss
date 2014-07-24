@@ -15,6 +15,7 @@ p {
 }
 
  body{
+	background-color: #8A0047;
 	color: #333;
 	font-family: 'Oswald', Arial, sans-serif;
 	font-size: 20px;
@@ -34,17 +35,8 @@ p {
 	font-size: 50px;
 }
 
-.mainbackground {
-	background-image: url("background2.png");
-	height: 450px;
-	background-size: cover;
-	background-repeat: no repeat;
-	position: relative;
-}
-
 #fadeMenu {
 	background: #44474B;
-	background-color: #640D7A;
 	display: none;
 	position: fixed;
 	right: 0;
@@ -58,42 +50,68 @@ p {
 	color: black;
 }
 
-.glyphicon:hover {
+.glyphicon-chevron-down:hover {
 	color: white;
 }
 
 #home{
 	height: 800px;
-	margin-top: 50px;
+	margin-top: 40px;
 	background-image: url("background2.png");
 	background-size: cover;
 	text-align: center;
 }
 
 #about {
-	background-size: cover;
+	background-color: #D7D7D7;
 	height: 550px;
 	color: black;
 	text-align: right;
 	margin: 0 auto;
-	padding: 80px 100px 100px 100px;
+	padding: 100px 100px 100px 100px;
 	img {
 		margin: 0 auto;
 		background-color: black;
-		height: 250px;
-		border-radius: 130px;
+		height: 260px;
+		border-radius: 30px;
+		box-shadow: 10px 10px 5px #888888;
 	}
 }
 
 #projects {
-	background-color: #0AB1C6;
+	background-color: #D78573;
 	background-size: cover;
 	text-align: center;
 	height: 800px;
 }
 
+.btn-primary {
+	background-color: #007688;
+	color: white;
+	margin: 0 auto;
+	width: 200px;
+	height: 55px;
+	border-radius: 5px;
+	text-align: center;
+
+}
+
+.row-description {
+	margin-left: 5%;
+}
+
+
+.btn-primary:hover {
+	content: 'hover for information';
+	background-color: #D7D7D7;
+	opacity: .8;
+	text-decoration: none !important;
+	color: black;
+}
+
 .portfolio {
 	margin-left: 5%;
+	height: 350px;
 }
 
 /*Portfolio pics*/

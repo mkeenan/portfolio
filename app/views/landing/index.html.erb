@@ -1,47 +1,149 @@
 
-<!-- <div class="container">  -->
-
+<!-- HOME -->
 <div class = "row" id="home">
-      <div class = "col-md-12">
-        <h1 class="heading">Mary Keenan</h1>
-        <br>
-        <h2 class="subhead">Education Technologist and Developer</h2>
-        <br>
-        <br>
-        <br>
-        <a href="#about"><span class = "glyphicon glyphicon-chevron-down"></span></a>
-      </div>
+  <div class = "col-md-12">
+    <h1 class="heading">Mary Keenan</h1>
+    <br>
+    <h2 class="subhead">Education Technologist</h2>
+    <br>
+    <h3 class="subhead">Designer, Developer, Consultant</h3>
+    <br>
+    <br>
+    <br>
+    <a href="#about"><span class="glyphicon glyphicon-chevron-down"></span></a>
+  </div>
 </div>  
+
+<!-- ABOUT -->
 <div class ="row" id="about">
   <div class="col-md-4">
     <br>
     <img src="assets/3f55a74.jpeg" class="img-responsive" style: "border: 4px solid black" alt="Responsive image">
   </div>
   <div class="col-md-8">
-    <h1 class="subhead">About</h1>
+    <h1 class="subhead" style="color: black;">About</h1>
     <br>
-    Bilingual education technology executive and entrepreneur. Experience includes extensive work in education management and operations, instructional design, e-learning development and Fortune 500 consulting. Recent graduate from General Assembly Web Development Immersive course specializing in Ruby on Rails, JavaScript, AngularJS, HTML5, CSS3, PostgreSQL, and MongoDB. Focuses on innovating traditional approaches to education. Passionate about early language acquisition, blended learning and augmented reality.
+    Bilingual education technology executive & entrepreneur. Experience includes extensive work in education management & operations, instructional design, e-learning development & Fortune 500 consulting. Recent graduate from General Assembly Web Development Immersive course specializing in Ruby on Rails, JavaScript, AngularJS, HTML5, CSS3, PostgreSQL, & MongoDB. Innovates traditional approaches to education. Passionate about early language acquisition, blended learning & augmented reality.
   </div>
 </div>
 
+<!-- PORTFOLIO -->
 <div id="projects">
   <br>
   <br>
-  <h1 class="subhead">Portfolio</h1>
+  <h1 class="subhead" style="color: black;"><span class="glyphicon glyphicon-th"></span> Portfolio <span class="glyphicon glyphicon-th"></span></h1>
+  <br>
+  <br>
   <br>
 	<div class="row portfolio">
-	    <div class="tilt pic col-md-3">
-	        <a href="http://lcm.firebaseapp.com"><img src="assets/lcm.png"/></a>
-	    </div>
+    <div>
 	    <div class="col-md-3">
-	        <a href="http://smilestones.herokuapp.com"><img class="tilt pic" src="assets/smilestones.png" /></a>
-	    </div>
-	    <div class="col-md-3">
-	        <a href="http://luxelist.herokuapp.com"><img class="tilt pic" src="assets/luxelist.png" /></a>
-	    </div>
-	    <div class="col-md-3">
-	        <a href="http://walkabee.herokuapp.com"><img class="tilt pic" src="assets/walkabee.png" /></a>
-	    </div>
+        <a href="http://lcm.firebaseapp.com" target="_blank"><img class="tilt pic" src="assets/lcm.png"></a>
+
+      <!-- Button trigger modal -->
+      <button class="btn btn-primary btn" data-toggle="modal" data-target="#myModal">
+        Larry, Curly, Moe
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Larry, Curly, Moe</h4>
+            </div>
+            <div class="modal-body">
+              Simple two-player Tic Tac Toe game developed using HTML5, CSS, AngularJS. Deployed on Firebase.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <a href="http://smilestones.herokuapp.com" target="_blank"><img class="tilt pic" src="assets/smilestones.png"></a>
+      
+      <!-- Button trigger modal -->
+      <button class="btn btn-primary btn" data-toggle="modal" data-target="#myModal">
+        Smilestones
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Smilestones</h4>
+            </div>
+            <div class="modal-body">
+              A business concept starter application that will use QR codes or Augmented Reality to bring printed photos to life. Developed using Ruby on Rails, Twitter Bootstrap. Deployed on Heroku.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-3">
+      <a href="http://luxelist.herokuapp.com" target="_blank"><img class="tilt pic" src="assets/luxelist.png"></a>
+         <!-- Button trigger modal -->
+      <button class="btn btn-primary btn" data-toggle="modal" data-target="#myModal">
+        Luxelist
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Luxelist</h4>
+            </div>
+            <div class="modal-body">
+              Luxelist is designed to curate furniture selections from Craig's List using a certain price point. Built using a Craig's List API, Ruby on Rails, Angular JS, Zurb Foundation. Deployed on Heroku.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+	    
+    <div class="col-md-3">
+        <a href="http://walkabee.herokuapp.com" target="_blank"><img class="tilt pic" src="assets/walkabee.png"></a>
+           <!-- Button trigger modal -->
+      <button class="btn btn-primary btn" data-toggle="modal" data-target="#myModal">
+        Walkabee
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">Walkabee</h4>
+            </div>
+            <div class="modal-body">
+              Walkabee is a business concept under development and is designed to immerse toddlers in a second language using embedded NFC flashcards and manipulatives to bridge physical play with online instruction. Built using Ruby on Rails, Angular JS and Twitter Boostrap. Deployed on Heroku.
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 	</div>
 </div>
     
